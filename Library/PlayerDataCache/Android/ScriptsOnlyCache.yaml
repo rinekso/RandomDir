@@ -54,35 +54,35 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11156}
+      Script: {instanceID: 11956}
     - Class: 114
-      Script: {instanceID: 11354}
+      Script: {instanceID: 11958}
     - Class: 114
-      Script: {instanceID: 11524}
+      Script: {instanceID: 11978}
     - Class: 114
-      Script: {instanceID: 11648}
+      Script: {instanceID: 12426}
     - Class: 114
-      Script: {instanceID: 11736}
+      Script: {instanceID: 12574}
     - Class: 114
-      Script: {instanceID: 12116}
+      Script: {instanceID: 12616}
     - Class: 114
-      Script: {instanceID: 12138}
+      Script: {instanceID: 12678}
     - Class: 114
-      Script: {instanceID: 12592}
+      Script: {instanceID: 13088}
     - Class: 114
-      Script: {instanceID: 12940}
+      Script: {instanceID: 13174}
     - Class: 114
-      Script: {instanceID: 15614}
+      Script: {instanceID: 13360}
     - Class: 114
-      Script: {instanceID: 15644}
+      Script: {instanceID: 13598}
     - Class: 114
-      Script: {instanceID: 15654}
+      Script: {instanceID: 13690}
     - Class: 114
-      Script: {instanceID: 15880}
+      Script: {instanceID: 13906}
     - Class: 114
-      Script: {instanceID: 16918}
+      Script: {instanceID: 14088}
     - Class: 114
-      Script: {instanceID: 22866}
+      Script: {instanceID: 14486}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -97,7 +97,21 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: f087c23fbfa15475a0d110af46fb0496
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
   - hash:
       serializedVersion: 2
       Hash: 4bc4346a71a8df53a6b106f68ef3a190
@@ -130,13 +144,13 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
-      Hash: aeb62f729c52c814dec86c47dcac1471
+      Hash: 699619b86d9359741a4f58540298c80b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Text
   - hash:
       serializedVersion: 2
-      Hash: 499fd23433e68e265d153aa6b95d0047
+      Hash: fd8b23ad3c9e81bc85b197495bc510ac
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Scrollbar
@@ -152,12 +166,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Image
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -208,7 +216,7 @@ ScriptsOnlyBuild:
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: ef5c43f921427d03730f6ea4c848f07d
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RectMask2D
@@ -230,6 +238,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 3e31d431290f02ef6664934acbbd4825
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraScript
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -256,7 +270,31 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
+      Hash: 227a3d8968bb3326cf22f13f6db35640
+    assemblyName: LunarConsole.dll
+    namespaceName: LunarConsolePluginInternal
+    className: LunarConsoleAction
+  - hash:
+      serializedVersion: 2
+      Hash: 79509d324c564e5aed5cf0edc91a50cb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PhotoboothControll
+  - hash:
+      serializedVersion: 2
+      Hash: dd07b17038ebcad27f14e517325207c9
+    assemblyName: LunarConsole.dll
+    namespaceName: LunarConsolePluginInternal
+    className: LunarConsoleLegacyActions
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: moveme
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ScrollRect
@@ -268,43 +306,61 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 18e8f1125af74e5f9f21003f2ed48b69
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PinchableScrollRect
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: RemoteTestResultSender
   - hash:
       serializedVersion: 2
-      Hash: 5f1752ed2092162f016c19510c28a8b9
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Button
+      Hash: 8c6933f891e37a1646aa495e3c2f1c28
+    assemblyName: LunarConsole.dll
+    namespaceName: LunarConsolePlugin
+    className: LunarConsole
   - hash:
       serializedVersion: 2
-      Hash: f84d945e5e1ca985698660fc26e9657f
+      Hash: c1d728126ff1918728036c59106d32b2
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+      Hash: 0b03eaddaceef9d56dc8c217c7257666
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ArrowTest
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PinchableScaleMove
+  - hash:
+      serializedVersion: 2
+      Hash: f7bb6096199e0cf058d5d69878184cf4
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: InputField
   - hash:
       serializedVersion: 2
-      Hash: c9a8b80298a116835b51ba1cf9284367
+      Hash: 908b3077da284d11de0450423ca1808e
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalReceiver
   - hash:
       serializedVersion: 2
-      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: HorizontalLayoutGroup
@@ -322,10 +378,22 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 61e54b4270b9351675e59e7f5ec4b8b2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Rotate
+  - hash:
+      serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 530620ca47dd8aaf31c6001fdaac81f0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GyroController
   - hash:
       serializedVersion: 2
       Hash: f336e086360abe49a3323e5f1583c35a
@@ -352,6 +420,12 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
+      Hash: 35335534e3f52ee26756d147bf097ab5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ArrowRandom
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -370,7 +444,7 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
-      Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
+      Hash: 134322c9293c1896357cce271b819ce4
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: EventTrigger
@@ -382,13 +456,13 @@ ScriptsOnlyBuild:
     className: TestRunCallbackListener
   - hash:
       serializedVersion: 2
-      Hash: 4ef0f7d42cdb13479386e1f049c315aa
+      Hash: c60c5cba0d5ed4f4a018240d6339217f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner
     className: PlaymodeTestsController
   - hash:
       serializedVersion: 2
-      Hash: 2aeeec1b1a144c469cd2d37776bc2315
+      Hash: 0fd689b29ca4e350893b80d82ac126b1
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Dropdown
@@ -400,7 +474,7 @@ ScriptsOnlyBuild:
     className: StandaloneInputModule
   - hash:
       serializedVersion: 2
-      Hash: aa88ae22474df55295327e4ee99e5a24
+      Hash: 0ffaf073d4b1fa4e8036cf7ad52ddba7
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Toggle
@@ -412,7 +486,7 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
-      Hash: 7072231382eb3c4871b3dd75ad0227e1
+      Hash: 0c05f2bfb402def3f0a85a62a2323c7f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Slider
@@ -428,79 +502,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 3e31d431290f02ef6664934acbbd4825
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraScript
-  - hash:
-      serializedVersion: 2
-      Hash: 227a3d8968bb3326cf22f13f6db35640
-    assemblyName: LunarConsole.dll
-    namespaceName: LunarConsolePluginInternal
-    className: LunarConsoleAction
-  - hash:
-      serializedVersion: 2
-      Hash: 79509d324c564e5aed5cf0edc91a50cb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PhotoboothControll
-  - hash:
-      serializedVersion: 2
-      Hash: dd07b17038ebcad27f14e517325207c9
-    assemblyName: LunarConsole.dll
-    namespaceName: LunarConsolePluginInternal
-    className: LunarConsoleLegacyActions
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: moveme
-  - hash:
-      serializedVersion: 2
-      Hash: e1c2c8cf00fc3228cf4954461835a414
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PinchableScrollRect
-  - hash:
-      serializedVersion: 2
-      Hash: 8c6933f891e37a1646aa495e3c2f1c28
-    assemblyName: LunarConsole.dll
-    namespaceName: LunarConsolePlugin
-    className: LunarConsole
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PinchableScaleMove
-  - hash:
-      serializedVersion: 2
-      Hash: 61e54b4270b9351675e59e7f5ec4b8b2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Rotate
-  - hash:
-      serializedVersion: 2
-      Hash: 530620ca47dd8aaf31c6001fdaac81f0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GyroController
-  - hash:
-      serializedVersion: 2
-      Hash: 35335534e3f52ee26756d147bf097ab5
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ArrowRandom
-  - hash:
-      serializedVersion: 2
-      Hash: 0b03eaddaceef9d56dc8c217c7257666
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ArrowTest
   platform: 13
   scenePathNames:
   - Assets/RandomCamera/Scenes/Camera/Photoboth.unity
-  playerPath: C:/Users/reyno/Documents/Kerja/Unity/Random Direction/Build/test.apk
+  playerPath: E:/Kerja/Unity/RandomDir/Build/randomDir.aab
